@@ -62,7 +62,7 @@ impl Params {
                 miner_confirmation_window: 10080,
                 pow_limit: Target::MAX_ATTAINABLE_MAINNET,
                 pow_target_spacing: 60,            // 1 minutes.
-                pow_target_timespan: 20 * 60 // 20 minutes.
+                pow_target_timespan: 20 * 60. // 20 minutes.
                 allow_min_difficulty_blocks: false,
                 no_pow_retargeting: false,
             },
